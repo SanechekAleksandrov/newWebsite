@@ -1,0 +1,43 @@
+*, *::before, *::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  background-color: #a4d0e1;
+}
+
+.container{
+  max-width:1960px;
+  padding:0 20px;
+}
+
+.greetings{
+  font-size: 60px;
+  line-height: 100px;
+  max-width:800px; 
+  margin: 0 auto;
+}
+
+.greetings span {
+  font-weight: 600;
+  font-size: 65px;
+  color:chocolate;
+}
+
+.food{
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.food__list-img{
+  width: 350px;
+  height: 350px;
+}
