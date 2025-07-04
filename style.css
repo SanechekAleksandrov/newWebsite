@@ -9,7 +9,11 @@ body{
   font-weight: 400;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: #a4d0e1;
+  font-size: 30px;
+  line-height: 60px;
 }
 
 .container{
@@ -17,11 +21,17 @@ body{
   padding:0 20px;
 }
 
+.header{
+  min-height:100vh;
+  margin-bottom: 75px;
+}
+
 .greetings{
   font-size: 60px;
   line-height: 100px;
   max-width:800px; 
   margin: 0 auto;
+  text-align: center;
 }
 
 .greetings span {
@@ -40,4 +50,46 @@ body{
 .food__list-img{
   width: 350px;
   height: 350px;
+}
+
+.info{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.info__title{
+  font-size: 60px;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.info__text{
+  font-weight: 500;
+  max-width:800px; 
+  font-size: 30px;
+  margin: 0 auto 50px;
+}
+
+.info__cuisine-img{
+  width:800px;
+  height:600px;
+  box-shadow: 0 20px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.info__cuisine-card{
+  display: flex;
+  gap:50px;
+  margin-bottom: 50px;
+}
+
+.info__cuisine-inner{
+  max-width:800px;
+  margin:auto 0; 
+}
+
+.info__cuisine-title{
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 30px;  
 }
